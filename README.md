@@ -22,6 +22,8 @@ make
 
 Usage
 --------------
+Reamap: 注意不能当作命令执行时， 需要右击》》 权限 》》 勾选允许作为程序执行文件
+
 
 Example 1: conversion from equirectangular (2048x1024) to equalarea (1024x512):
 ```
