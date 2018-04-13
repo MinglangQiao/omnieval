@@ -23,7 +23,7 @@ make
 ```
 /usr/bin/ld: 找不到 -lopencv_dep_cudart
 ```
-这么解决：
+这么解决, opencv版本为4.3也没问题：
 ```
 cmake -D CUDA_USE_STATIC_CUDA_RUNTIME=OFF ../
 ```
