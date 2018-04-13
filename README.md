@@ -24,7 +24,10 @@ make
 /usr/bin/ld: 找不到 -lopencv_dep_cudart
 ```
 这么解决：
-pass
+```
+cmake -D CUDA_USE_STATIC_CUDA_RUNTIME=OFF ../
+```
+[认真看别人的教程和解决办法，不要加错地方了](https://github.com/opencv/opencv/issues/6542)
 
 
 Usage
