@@ -19,6 +19,13 @@ cd build
 cmake ../
 make
 ```
+如果报错
+```
+/usr/bin/ld: 找不到 -lopencv_dep_cudart
+```
+这么解决：
+pass
+
 
 Usage
 --------------
