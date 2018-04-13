@@ -28,7 +28,7 @@ make
 cmake -D CUDA_USE_STATIC_CUDA_RUNTIME=OFF ../
 ```
 [认真看别人的教程和解决办法，不要加错地方了](https://github.com/opencv/opencv/issues/6542)
-
+-s 命令需要改源码， 找到yuv的某一帧的启始位置，读出那一帧的数据
 
 Usage
 --------------
